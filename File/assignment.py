@@ -1,6 +1,6 @@
 while True:
-    num1 = int(input("Enter first number:  "))
-    num2 = int(input("Enter second number:  "))
+    columns = int(input("Enter number of columns:  "))
+    rows = int(input("Enter number of rows:  "))
     search = int(input("Enter number to search:  "))
     if num1 < 1 or num2 < 1 or search < 1:
         break
